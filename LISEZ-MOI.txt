@@ -1,0 +1,39 @@
+GOODMAN WEB-TECH — SITE COMPLET (dossier prêt à déployer)
+==========================================================
+
+Ce dossier "SITE-GWT" contient TOUT votre site :
+- index.html              -> le site
+- images/produits/        -> les 39 visuels de la boutique (déjà inclus)
+- images/                 -> à compléter avec 2 fichiers (voir ci-dessous)
+
+1) AJOUTER LE LOGO ET LA PHOTO DU CEO
+-------------------------------------
+Déposez vos 2 fichiers dans le dossier "images" :
+   images/logo.png   (ou logo.jpg)  -> votre logo GWT
+   images/ceo.jpg    (ou ceo.jpeg)  -> la photo du CEO
+Le site accepte logo/Logo/ceo/Ceo et les extensions .png/.jpg/.jpeg/.webp.
+Si absents : un logo "GWT" et les initiales "SAR" s'affichent en secours.
+
+2) LA BOUTIQUE (39 produits)
+----------------------------
+Catalogue construit à partir de vos affiches : points d'accès WiFi
+intérieur/extérieur, antennes CPE (liaisons point-à-point), et 2 kits
+(vidéosurveillance 8 caméras, WiFi Zone Starlink).
+Chaque produit a son image, ses caractéristiques, son prix en FCFA et
+un bouton "Commander sur WhatsApp" (vers 57 05 19 57) avec message prérempli.
+
+Pour MODIFIER un prix ou un produit : ouvrez index.html, cherchez
+"const produits", et changez la valeur "prix" (ex : "50 000 FCFA").
+Pour ajouter un produit : copiez une ligne, mettez une image dans
+images/produits/ et indiquez son nom (sans .jpg) dans le champ "img".
+
+3) METTRE EN LIGNE (Cloudflare Pages, gratuit)
+----------------------------------------------
+- Allez sur https://pages.cloudflare.com (compte gratuit)
+- Create application -> Upload assets (Direct Upload)
+- Glissez TOUT le dossier "SITE-GWT" (avec index.html + images)
+- Deploy. Votre site sera en ligne (ex : goodman-web-tech.pages.dev)
+- Custom domains -> pour brancher goodmanwebtech.com
+
+IMPORTANT : déployez le dossier COMPLET pour que les images suivent.
+Gardez une copie sur Google Drive / cle USB pour ne plus rien perdre.
